@@ -1,0 +1,619 @@
+/*Body/Background*/
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    background-color: rgb(213, 96, 41);
+    font-size: 22px;
+    text-align: center;
+}
+
+/*a {
+    color: whitesmoke;
+}*/
+
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.flex-container {
+    background-image: url("C: \Users\ASR PTAH PTAH ASR\Downloads\vs c_tbpg\vs c_Imgs\swd 30 (3).png");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/*YouTube In-Demand Video "Gyasi Linje"*/
+
+iframe {
+    border: 1.1px solid greenyellow;
+    margin-top: 99px auto 0px;
+
+}
+
+/*In-Demand Image*/
+
+.in-demand {
+    max-width: 1080px;
+    margin-top: 0 0.9px;
+}
+
+/*Project Tag*/
+
+h1 {
+    color: white;
+    text-decoration: line-through;
+    font-size: 333px;
+    text-align: center;
+}
+
+/*Logo/Header*/
+
+header {
+    margin: 0px auto 80px;
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: orange;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1.1px solid greenyellow;
+    z-index: 1;
+}
+
+.header {
+    background-image: url("C: \Users\ASR PTAH PTAH ASR\OneDrive\Pictures\Saved Pictures\Screenshots\rt_logo.png");
+    background-repeat: no-repeat;
+
+}
+
+header img {
+    max-height: 80px;
+    max-width: auto;
+    height: 80px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.logos {
+    height: 99px;
+    float: left;
+    padding: 10px;
+}
+
+/*Containers*/
+
+
+div {
+    margin: 0 auto;
+}
+
+.main {
+    padding: 0px;
+    opacity: 0.9;
+    width: 100%;
+    margin: 0px auto;
+}
+
+#Learn {
+    background-color: blueviolet;
+}
+
+#Learn .content {
+    background-color: yellow;
+    width: 1080px;
+    margin: 60 auto;
+}
+
+#Mentors {
+    height: 250px;
+    background-color: yellowgreen;
+    padding: 0 0;
+    border: 1px solid yellowgreen;
+    margin: 0px auto;
+}
+
+#Mentors .content {
+    background-color: yellow;
+    width: 1080px;
+    margin: 60px auto;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Classmates {
+    height: 250px;
+    background-color: grey;
+    padding: auto;
+    border: 1px solid yellowgreen;
+    margin: 10px auto;
+}
+
+#Classmates .content {
+    margin: auto;
+    background-color: yellow;
+    width: 1200px;
+    margin-top: 0 auto;
+
+}
+
+.a {
+    color: blueviolet;
+}
+
+.b {
+    color: yellowgreen;
+}
+
+.c {
+    color: white;
+}
+
+/*Mentors Profile Info./Title*/
+
+h5 {
+    display: flex;
+    display: inline-flex;
+    margin: 9px 20px;
+}
+
+/*Info./Image SwD30*/
+
+.swd {
+    border: 1px solid yellowgreen;
+    margin: 10px auto;
+}
+
+.profiles {
+    margin: 10px auto;
+}
+
+/*Footer*/
+
+footer {
+    color: black;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto 10px;
+
+}
+
+/*Media Quieries*/
+
+@media only screen and (max-width: 900px),
+(orientation: landscape) {
+    .logos nav header span a {
+        max-height: 80px;
+        float: left;
+        padding: 10px;
+        display: flex;
+        display: block;
+        position: relative;
+    }
+}
+
+/*YouTube In-Demand Video "Gyasi Linje*/
+
+/*@media screen and (min-width: 900px),
+(orientation: landscape) {
+    iframe,h3,a,.in-demand {
+        width: 1200px;
+        height: 550px;
+
+    }
+}
+
+@media screen and (min-width: 840px),
+(orientation: landscape) {
+    iframe,
+        h3,
+        a,
+        .in-demand {
+        width: 900px;
+        height: 550px;
+
+    }
+}
+
+@media screen and (max-width: 840px),
+(orientation: landscape) {
+    iframe,
+        h3,
+        a,
+        .in-demand {
+        width: 600px;
+        height: 300px;
+
+    }
+}
+
+@media screen and (max-width: 600px),
+(orientation: landscape) {
+    iframe,
+        h3,
+        a,
+        .in-demand {
+        width: 550px;
+        height: 350px;
+
+    }
+}
+
+@media screen and (max-width: 580px),
+(orientation: landscape) {
+    iframe,
+        h3,
+        a,
+        .in-demand {
+        width: 520px;
+        height: 350px;
+
+    }
+}
+
+@media only screen and (max-width: 520px),(orientation: landscape) {
+    iframe,
+        h3,
+        a,
+        .in-demand {
+        width: 320px;
+        height: 300px;
+
+    }
+}*/
+
+
+
+/*end*/
+
+@media screen and (max-width: 1850px) {
+    iframe {
+        margin-top: 600px auto 0px;
+        border: 5px solid greenyellow;
+        width: 1080px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    iframe {
+        margin-top: 600px auto 0px;
+        border: 5px solid greenyellow;
+        width: 840px;
+        height: 550px;
+
+    }
+}
+
+@media screen and (max-width: 840px) {
+    iframe {
+        margin-top: 600px auto 0px;
+        border: 5px solid pink;
+        width: 600px;
+        height: 300px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    iframe {
+        margin-top: 520px auto 0px;
+        border: 5px solid red;
+        width: 550px;
+        height: 350px;
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    iframe {
+        margin-top: 520px auto 0px;
+        border: 5px solid red;
+        width: 520px;
+        height: 350px;
+
+    }
+}
+
+@media screen and (max-width: 520px) {
+    iframe {
+        margin-top: 520px auto 0px;
+        border: 5px solid red;
+        width: 320px;
+        height: 300px;
+
+    }
+}
+
+/*In-Demand Image*/
+
+@media screen and (max-width: 1850px) {
+    .in-demand {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 1080px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .in-demand {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 1360px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .in-demand {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .in-demand {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .in-demand {
+        max-width: 1200px;
+        border: 5px solid greenyellow;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .in-demand {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+/*OurMission Image*/
+
+@media screen and (max-width: 1850px) {
+    .OurMssn {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 1080px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .OurMssn {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 1360px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .OurMssn {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .OurMssn {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .OurMssn {
+        max-width: 1200px;
+        border: 5px solid greenyellow;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .OurMssn {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+/*Containers/.Main*/
+
+@media screen and (max-width: 1850px) {
+    .main {
+        max-width: 1850px;
+        width: 1080px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .main {
+        max-width: 1850px;
+        width: 1360px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        max-width: 1850px;
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .main {
+        max-width: 1850px;
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .main {
+        max-width: 1200px;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        max-width: 1850px;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+/*Empower, SWD30Prgm,*/
+
+@media screen and (max-width: 1850px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 1080px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 1360px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .empower {
+        max-width: 1200px;
+        border: 5px solid greenyellow;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1850px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 1080px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 1360px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .empower {
+        max-width: 1200px;
+        border: 5px solid greenyellow;
+        width: 320px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .empower {
+        max-width: 1850px;
+        border: 5px solid greenyellow;
+        width: 320px;
+        height: 300px;
+    }
+}
